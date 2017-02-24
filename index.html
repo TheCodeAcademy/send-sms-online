@@ -1,0 +1,82 @@
+<html>
+<head>
+    <title>Write</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="connect.js"></script>
+</head>
+
+<body>
+<div class="container-fluid">
+    <div class="row center-block">
+        <div class="col-md-6">
+            <form>
+                <div class="form-group">
+                    <label for="your-name">Your name: </label>
+                    <input type="text" class="form-control input-lg" id="your-name" placeholder="Enter your name">
+                </div>
+
+                <div class="form-group">
+                    <label for="number">Your friends number: </label>
+                    <input type="tel" class="form-control input-lg" id="number" placeholder="Enter your friends cell phone number">
+                </div>
+
+                <div class="form-group">
+                    <!-- 
+                          For a more carriers, go to the link below, 
+                          http://coghlancapital.com/textaddress 
+                          input the carriers email as the option value,
+                          and enter the name of the carrier.
+                    -->
+                    <label for="carrier">Your friends cell phone carrier: </label>
+                    <select class="form-control input-lg custom-select" id="carrier">
+                        <option value="@tmomail.net" selected>T-Mobile</option>
+                        <option value="@vtext.com">Verizon</option>
+                        <option value="@messaging.sprintpcs.com">Sprint</option>
+                        <option value="@txt.att.net">AT&T</option>
+                        <option value="@sms.3rivers.net">3 River Wireless</option>
+                        <option value="@paging.acswireless.com">ACS Wireless</option>
+                        <option value="@message.alltel.com">Alltel</option>
+                        <option value="@txt.bellmobility.ca">Bell Canada</option>
+                        <option value="@bellmobility.ca">Bell Canada (second option)</option>
+                        <option value="@txt.bell.ca">Bell Canada (Canada)</option>
+                        <option value="@txt.bellmobility.ca">Bell Mobility</option>
+                        <option value="@blueskyfrog.com">Blue Sky Frog</option>
+                        <option value="@sms.bluecell.com">Bluegrass Cellular</option>
+                        <option value="@myboostmobile.com">Boost Mobile</option>
+                        <option value="@bplmobile.com">BPL Mobile</option>
+                        <option value="@cwwsms.com">Carolina West Wireless</option>
+                        <option value="@mobile.celloneusa.com">Cellular One</option>
+                        <option value="@cwemail.com">Centennial Wireless</option>
+                        <option value="@mymetropcs.com">Metro PCS</option>
+                        <option value="@txt.att.net">Tracfone</option>
+                        <option value="@email.uscc.net">US Cellular</option>
+                        <option value="@email.uscc.net">US Cellular</option>
+                        <option value="@uswestdatamail.com">US West</option>
+                        <option value="@vmobl.com">Virgin Mobile</option>
+                        <option value="@vmobile.ca">Virgin Mobile Canada</option>
+                        <option value="@t-mobile-sms.de">German T-Mobile</option>
+                        <option value="@sms.orange.nl">Dutchtone / Orange-NL</option>
+                        <option value="@airtelmail.com">Delhi Aritel</option>
+                        <option value="@delhi.hutch.co.in">Delhi Hutch</option>
+                        <option value="@o2imail.co.uk">O2</option>
+                        <option value="@t-mobile.uk.net">T-Mobile UK</option>
+                        <option value="@sms.vodafone.it">Vodafone Italy</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Enter your message: </label>
+                    <textarea type="tel" class="form-control input-lg" rows="5" id="message" placeholder="Enter your message"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary input-lg col-md-12 col-sm-12 col-md-12 send">Submit (Data rates may apply)</button>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
